@@ -99,4 +99,4 @@ let wagesEarnedOnDate = function(dateSought){
      return srcArray.find(function(employee) {
           return employee.firstName === firstName
       })
-  } 
+  }
