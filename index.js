@@ -88,13 +88,13 @@ let wagesEarnedOnDate = function(dateSought){
          return memo + allWagesFor.call(rec)
      }, 0)
  }
- 
+
  let createEmployeeRecords = function(arrays){
      return arrays.map(function(row){
           return createEmployeeRecord(row)
       })
   }
- 
+
   let findEmployeebyFirstName = function(srcArray, firstName){
      return srcArray.find(function(employee) {
           return employee.firstName === firstName
